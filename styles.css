@@ -1,0 +1,153 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce8ed; /* Light pink background */
+    color: #333;
+    background-image: url('https://www.foreigntongues.co.uk/wp-content/uploads/2020/02/Valentines-Day.jpg'); /* Add your Valentine's Day image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #5b052c; /* Pink header */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    border-bottom: 5px solid #5b052c; /* Darker pink border */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White main section with opacity */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #ff7eb9; /* Pink headings */
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff7eb9; /* Pink footer */
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#intro {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons, #promise {
+    margin-bottom: 20px;
+}
+
+#reasons li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+#reasons li:before {
+    content: '\2665'; /* Heart symbol */
+    position: absolute;
+    left: 0;
+    color: #ff4d8a; /* Darker pink heart */
+    font-size: 1.2rem;
+    top: 0;
+}
+
+#promise p {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
