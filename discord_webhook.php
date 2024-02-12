@@ -4,7 +4,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 $response = $data['response'];
 
-$webhook_url = 'YOUR_DISCORD_WEBHOOK_URL';
+$webhook_url = 'https://discord.com/api/webhooks/1206690909282893834/2d1kLBCflHN1vFkyjyehWPVHA1gEuAbRNUTc5c4yshvCOph-cG_PnJV_rJdmToK2F8A0';
 
 $data = array('content' => "Amaya responded: $response");
 
