@@ -151,3 +151,23 @@ footer {
     cursor: pointer;
 }
 
+button#proposalBtn {
+    background-color: #ff7eb9; /* Baggrundsfarve */
+    color: #fff; /* Tekstfarve */
+    border: none; /* Fjern kanten omkring knappen */
+    padding: 10px 20px; /* Polstring for at justere knappens størrelse */
+    font-size: 16px; /* Skriftstørrelse */
+    border-radius: 5px; /* Afrundede kanter */
+    cursor: pointer; /* Vis musemarkøren som en hånd, når der holdes over knappen */
+    transition: all 0.3s ease; /* Tilføj en overgangseffekt for at gøre ændringer glidende */
+}
+
+/* Juster knappens størrelse, når der holdes over */
+button#proposalBtn:hover {
+    background-color: #ff4d8a; /* Ændre baggrundsfarve, når der holdes over */
+}
+
+/* Juster knappens størrelse, når der klikkes */
+button#proposalBtn:active {
+    background-color: #d1396f; /* Ændre baggrundsfarve, når der klikkes */
+}
