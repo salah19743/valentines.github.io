@@ -169,6 +169,6 @@ button#proposalBtn:hover {
 
 /* Juster knappens størrelse, når der klikkes */
 button#proposalBtn:active {
-    background-color: #d1396f; /* Ændre baggrundsfarve, når der klikkes */
+    background-color: #FFC0CB; /* Ændre baggrundsfarve, når der klikkes */
 }
 
